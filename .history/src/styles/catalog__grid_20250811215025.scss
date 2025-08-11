@@ -1,11 +1,11 @@
 .catalog {
-  padding: $space-50 $space-40;
+  padding: $space-50 40px;
 
   &__grid {
     margin: 0 auto;
     display: grid;
     justify-content: center;
-    gap: 48px 46px;
+    gap: 146px 48px;
     grid-template-columns: 200px;
   }
 }

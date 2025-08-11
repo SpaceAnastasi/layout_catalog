@@ -32,10 +32,6 @@
     transition: color $tr-300;
   }
 
-  &:hover &__title {
-    color: $color-accent;
-  }
-
   &__code {
     font-weight: 400;
     font-size: 10px;

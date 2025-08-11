@@ -11,7 +11,7 @@
   transition: transform 300ms;
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(3);
   }
 
   &__image {
@@ -29,11 +29,11 @@
     color: $main-font-color;
     margin: 0;
 
-    transition: color $tr-300;
-  }
+    transition: color 300ms;
 
-  &:hover &__title {
-    color: $color-accent;
+    &:hover {
+      color: $color-accent;
+    }
   }
 
   &__code {

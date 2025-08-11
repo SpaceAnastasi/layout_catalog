@@ -19,7 +19,7 @@
     height: 134px;
 
     display: block;
-    margin: 0 auto 40px;
+    margin: 0 auto $space-40;
   }
 
   &__title {
@@ -29,11 +29,11 @@
     color: $main-font-color;
     margin: 0;
 
-    transition: color $tr-300;
-  }
+    transition: color 300ms;
 
-  &:hover &__title {
-    color: $color-accent;
+    &:hover {
+      color: $color-accent;
+    }
   }
 
   &__code {
@@ -81,7 +81,7 @@
 
   &__buy {
     width: 166px;
-    height: 40px;
+    height: $space-40;
     border-radius: 5px;
     background-color: $blue-color;
 

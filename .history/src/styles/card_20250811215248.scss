@@ -1,7 +1,7 @@
 .card {
   width: $card-width;
   background-color: $color-white;
-  border: 1px solid #f3f3f3;
+  border: 3px solid red;
   border-radius: 5px;
 
   display: flex;
@@ -29,11 +29,11 @@
     color: $main-font-color;
     margin: 0;
 
-    transition: color $tr-300;
-  }
+    transition: color 300ms;
 
-  &:hover &__title {
-    color: $color-accent;
+    &:hover {
+      color: $color-accent;
+    }
   }
 
   &__code {

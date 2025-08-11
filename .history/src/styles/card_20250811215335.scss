@@ -29,11 +29,11 @@
     color: $main-font-color;
     margin: 0;
 
-    transition: color $tr-300;
-  }
+    transition: color 300ms;
 
-  &:hover &__title {
-    color: $color-accent;
+    &:hover {
+      color: $color-accent;
+    }
   }
 
   &__code {
