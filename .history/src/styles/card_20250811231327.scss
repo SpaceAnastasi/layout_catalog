@@ -96,7 +96,7 @@
     align-items: center;
     justify-content: center;
 
-    transition: background-color $tr-300, color $tr-300;
+    transition: background-color 300ms, color 300ms;
 
     &:hover {
       background-color: $color-white;

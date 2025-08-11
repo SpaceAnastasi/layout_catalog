@@ -8,7 +8,7 @@
   flex-direction: column;
   padding: 32px 16px 16px;
 
-  transition: transform $tr-300;
+  transition: transform 300ms;
 
   &:hover {
     transform: scale(1.2);
@@ -96,7 +96,7 @@
     align-items: center;
     justify-content: center;
 
-    transition: background-color $tr-300, color $tr-300;
+    transition: background-color 300ms, color 300ms;
 
     &:hover {
       background-color: $color-white;
